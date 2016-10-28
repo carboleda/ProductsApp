@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_335be86aa48a727df3d934d7219e70544ddb4cf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3e0ee063d475deaddc7d8879c895a97ee4716b70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.6.1_c01604a966fadc22e64580e6700ac8848030181b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_ffcb412a4b8a85085833a67275a9d9d394d680cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_140ee80df3544e1f40540ee40bd0dff3e0b6f2f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.6.1_1b5dc73d06fa6e8e9bf69a8d79a13962a5c378e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.6.1_9031899a8c1c1cff41f226229cd3278c6a1a8193.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.6.1_3e6e686fefd81f9d90b094cb349de515e7268df8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/me.zhanghai.android.materialprogressbar/library/1.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1478a113f04bf0b679037b4f6bd88bd1837b96a3">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/me.zhanghai.android.materialprogressbar-library-1.1.7_1f3595f0afbe8e4b300d91f9ef5550de7cdf65c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.6.1_1caa06f1b1ed77797b96c16233b9e3a8f5c14cfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.6.1_8964a68634d4d7ac63a0eb2ab9bfb1a607d08877.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/okio-1.8.0_b5c5480fd75fa54366fd106d731095efe9dde93c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_24e7bce91d23a9b6151471db31055c835aa207dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_de7dc165cbe5cb77b6123584b49cdd38f4ff5439.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_9d33b0f305bd0df80b07b0936f1aa9fec106c352.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_43f37534cd41d5ad297edb55260fc06062c8cc7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_e215d54b150bb70266b2271def7236bb77958ad3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/libs/ormlite-core-5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03382b8260646dd334a1b9c1b3d412fcb73d8b21">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/ormlite-core-5.0_7a06e976e1a129c9d18ce72d675f70294f43f338.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_a223a3bc61a287ab54215d9e0eca69c29f4a6c2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_3b2227b375b93c1613f6ea5579ef5725a099f3d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.afollestad.material-dialogs/core/0.9.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d3f8ab57967a9149262ad36a46477fc2515f6ac8">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.afollestad.material-dialogs-core-0.9.0.2_28002f5d88f857fb497201766f79806e768154da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_14e65d201ee81eea9941d7358c37f51ef5f18783.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_99c9f63ba63cd8fb62edd67daa6f3ce4e0ce1234.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_11b2678f4af24d29dbc83e233e7ef3e3355ee4b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ca166ce5ce03dfd429827246c35eb24261bfcb1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_fdf419427b6ac1c2b1829cf5a5649a35711961c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/gson-2.7_a1c8cdf20cae93bbdbd5eabf2074ad57aaec7f1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7d4beaa82d97cb8d9082471f27293d618e75882c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/libs/ormlite-android-5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="01f065373aeef355dd9e2fd9854efd5ed4d54f6d">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/ormlite-android-5.0_b5d76cbf3e5f73f7494ccc67db6af0bc681e30bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_b028f48aceae33cde055e45e0394b3d9b8cb1c23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_f6b3624138d0a33edced0c00bd4d333a9c1a85f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Library/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_dab7ecf49043990487a3398b7ef02db734ffdcf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_846023eb83cdd1a0ad701f95e5b0d18d8a94470f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="/Users/krlosf/Documents/Desarrollo/GDG/Curso Codesa 2/C7/ProductosApp/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.6.1_3e85886f1aad7079791366ad1cae999ed4092d2d.jar" />
+    </item>
+
+</items>
