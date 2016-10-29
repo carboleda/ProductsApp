@@ -74,6 +74,31 @@ public class ProductInteractorImpl implements ProductInteractor {
     }
 
     @Override
+    public void createOrUpdate(final Product product, final Callback callback) {
+        //Realizar validaciones de logica de negocio (opcional)
+        new ThreadExecutor(new ThreadExecutor.Executor() {
+            @Override
+            public Object execute() {
+                try {
+                    productRepository.createOrUpdate(product);
+                    return null;
+                } catch (Exception e) {
+                    return e;
+                }
+            }
+
+            @Override
+            public void finish(Object result) {
+                if(result instanceof Throwable) {
+                    callback.error((Throwable) result);
+                } else {
+                    callback.success(result);
+                }
+            }
+        }).execute();
+    }
+
+    @Override
     public void delete(final Product product, final Callback callback) {
         //Realizar validaciones de logica de negocio (opcional)
         new ThreadExecutor(new ThreadExecutor.Executor() {

@@ -22,7 +22,7 @@ import co.gdgcali.productosapp.repository.impl.ProductRepositoryImpl;
 public class DBHelper extends OrmLiteSqliteOpenHelper {
 
     public static final String NAME = "productosapp.db";
-    private static final int VERSION = 1;
+    private static final int VERSION = 2;
 
     private Dao<Product, Integer> productDao;
 
@@ -55,7 +55,14 @@ public class DBHelper extends OrmLiteSqliteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, ConnectionSource connectionSource,
                           int oldVersion, int newVersion) {
-        onCreate(sqLiteDatabase, connectionSource);
+        try {
+            Dao productDao = getProductDao();
+
+            productDao.executeRawNoArgs("ALTER TABLE "+productDao.getTableName()+
+                    " ADD COLUMN "+Product.IMAGE_PATH+" TEXT NULL");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     public Dao<Product, Integer> getProductDao() throws SQLException {

@@ -17,6 +17,7 @@ import android.view.MenuItem;
 
 import co.gdgcali.productosapp.R;
 import co.gdgcali.productosapp.presentation.view.fragement.ListProductsFragment;
+import co.gdgcali.productosapp.presentation.view.fragement.ProductFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -32,8 +33,9 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                // .setAction("Action", null).show();
+                replaceFragment(new ProductFragment());
             }
         });
 
@@ -106,15 +108,19 @@ public class MainActivity extends AppCompatActivity
         }
 
         if(fragment != null) {
-            FragmentTransaction fragmentTransaction =
-                    getSupportFragmentManager().beginTransaction();
-            fragmentTransaction.replace(R.id.content_main, fragment);
-            fragmentTransaction.addToBackStack(null);
-            fragmentTransaction.commit();
+            replaceFragment(fragment);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void replaceFragment(Fragment fragment) {
+        FragmentTransaction fragmentTransaction =
+                getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.content_main, fragment);
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
     }
 }

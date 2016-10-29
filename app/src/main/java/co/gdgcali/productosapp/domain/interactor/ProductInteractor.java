@@ -17,6 +17,8 @@ public interface ProductInteractor {
 
     void update(Product product, Callback callback);
 
+    void createOrUpdate(Product product, Callback callback);
+
     void delete(Product product, Callback callback);
 
     void loadProduct(int id, Callback callback);

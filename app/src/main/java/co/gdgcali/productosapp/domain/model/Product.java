@@ -11,6 +11,7 @@ public class Product {
     public static final String ID = "id";
     public static final String NAME = "name";
     public static final String DESCRIPTION = "description";
+    public static final String IMAGE_PATH = "image_path";
 
     @DatabaseField(columnName = ID, generatedId = true, canBeNull = false)
     private int id;
@@ -18,6 +19,8 @@ public class Product {
     private String name;
     @DatabaseField(columnName = DESCRIPTION)
     private String description;
+    @DatabaseField(columnName = IMAGE_PATH)
+    private String imagePath;
 
     public Product() {
     }
@@ -26,6 +29,13 @@ public class Product {
         this.id = id;
         this.name = name;
         this.description = description;
+    }
+
+    public Product(int id, String name, String description, String imagePath) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.imagePath = imagePath;
     }
 
     public int getId() {
@@ -50,5 +60,13 @@ public class Product {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getImagePath() {
+        return imagePath;
+    }
+
+    public void setImagePath(String imagePath) {
+        this.imagePath = imagePath;
     }
 }

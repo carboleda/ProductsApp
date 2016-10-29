@@ -11,4 +11,6 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="save_product_error">Error guardando producto</string>
+    <string name="save_product_success">Producto guardado correctamente</string>
 </resources>
