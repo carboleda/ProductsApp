@@ -4,8 +4,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
+
+import java.io.File;
 import java.util.List;
 
 import co.gdgcali.productosapp.R;
@@ -36,9 +40,14 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
     public void onBindViewHolder(ProductAdapter.ViewHolder holder, int position) {
         Product product = dataSource.get(position);
 
-        holder.tvId.setText(String.valueOf(product.getId()));
+        holder.tvId.setText("No. "+String.valueOf(product.getId()));
         holder.tvName.setText(product.getName());
         holder.tvDescription.setText(product.getDescription());
+        if(product.getImagePath() != null && !product.getImagePath().isEmpty()) {
+            Picasso.with(holder.itemView.getContext())
+                    .load(new File(product.getImagePath()))
+                    .into(holder.ivImage);
+        }
     }
 
     @Override
@@ -51,6 +60,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
         TextView tvId;
         TextView tvName;
         TextView tvDescription;
+        ImageView ivImage;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -58,6 +68,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ViewHold
             tvId = (TextView) itemView.findViewById(R.id.tvId);
             tvName = (TextView) itemView.findViewById(R.id.tvName);
             tvDescription = (TextView) itemView.findViewById(R.id.tvDescription);
+            ivImage = (ImageView) itemView.findViewById(R.id.ivImage);
         }
     }
 }

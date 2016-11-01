@@ -82,7 +82,7 @@ public class ProductRepositoryImpl implements ProductRepository {
             //Buscar los productos en la fuente de datos
             Dao dao = dbHelper.getProductDao();
             List<Product> lstProduct = dao.queryForAll();
-            Thread.sleep(3000);
+            //Thread.sleep(3000);
 
             return lstProduct;
         } finally {

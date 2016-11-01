@@ -5,28 +5,44 @@
     android:layout_height="wrap_content">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-        <TextView android:id="@+id/tvId"
-            android:layout_width="match_parent"
+        <ImageView android:id="@+id/ivImage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:layout_margin="@dimen/item_product_padding"
-            android:textStyle="bold"/>
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="@dimen/item_product_padding"/>
 
-        <TextView android:id="@+id/tvName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:layout_margin="@dimen/item_product_padding"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content">
 
-        <TextView android:id="@+id/tvDescription"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:layout_margin="@dimen/item_product_padding"/>
+            <TextView android:id="@+id/tvId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_margin="@dimen/item_product_padding"
+                android:textStyle="bold"/>
+
+            <TextView android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_margin="@dimen/item_product_padding"/>
+
+            <TextView android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:layout_margin="@dimen/item_product_padding"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
